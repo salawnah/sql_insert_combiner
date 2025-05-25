@@ -1,5 +1,5 @@
 # The Problem 
-While working on migrating data from one database to another, especially when using different database systems, the SQL dump will have a separate insert statement for each record in the table, like the following: 
+While working on migrating data from one database to another, especially when using different database systems, the SQL dump may have a separate insert statement for each record in the table, like the following: 
 
 ```sql 
 INSERT INTO CATS (NAME, AGE) VALUES ('Taki',2);
